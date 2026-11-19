@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Endokrynolog Rzeszów - lek. Aneta Kołodziej, konsultacja i USG tarczycy</title>
+<meta name="description" content="Prywatny gabinet endokrynologiczny w Rzeszowie, ul. Litewska 4b/10. Lek. Aneta Kołodziej: konsultacja endokrynologiczna z USG tarczycy (elastografia) podczas jednej wizyty.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#2F5375">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' fill='%232F5375'/%3E%3Crect x='8' y='20' width='8' height='8' fill='%23D4D70E'/%3E%3Crect x='20' y='20' width='8' height='8' fill='%2354B4DC'/%3E%3Crect x='32' y='20' width='8' height='8' fill='%234481EB'/%3E%3C/svg%3E">
+<link rel="preload" as="font" type="font/woff2" href="fonts/dmserif-latin.woff2" crossorigin>
+<link rel="preload" as="image" href="img/usg-1105.webp" imagesrcset="img/usg-640.webp 640w, img/usg-1105.webp 1105w" imagesizes="(max-width: 860px) 100vw, 48vw" fetchpriority="high">
+<style>
+@font-face{font-family:'DM Serif Display';font-weight:400;font-display:swap;src:url(fonts/dmserif-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2212}
+@font-face{font-family:'DM Serif Display';font-weight:400;font-display:swap;src:url(fonts/dmserif-latin-ext.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Inter;font-weight:400;font-display:swap;src:url(fonts/inter-latin-400-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2212}
+@font-face{font-family:Inter;font-weight:400;font-display:swap;src:url(fonts/inter-latin-ext-400-normal.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:Inter;font-weight:600;font-display:swap;src:url(fonts/inter-latin-600-normal.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+20AC,U+2122,U+2212}
+@font-face{font-family:Inter;font-weight:600;font-display:swap;src:url(fonts/inter-latin-ext-600-normal.woff2) format('woff2');unicode-range:U+0100-02AF,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+:root{--navy:#2F5375;--navy2:#24425f;--ink:#16263a;--txt:#33445a;--mut:#5d6b7d;--lime:#D4D70E;--sky:#54B4DC;--blue:#4481EB;--grey:#F2F5F8;--line:#dbe2ea;--h:72px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--h) + 8px);-webkit-text-size-adjust:100%}
+body{font-family:Inter,system-ui,sans-serif;font-size:17px;line-height:1.6;color:var(--txt);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{width:min(1180px,100% - 40px);margin-inline:auto}
+h1,h2,h3{font-family:'DM Serif Display',Georgia,serif;font-weight:400;color:var(--ink);line-height:1.12;letter-spacing:-.005em}
+h2{font-size:clamp(32px,4.2vw,48px);margin-bottom:18px}
+h3{font-size:25px;margin-bottom:10px}
+p+p{margin-top:12px}
+.sq{display:inline-flex;gap:5px;vertical-align:middle}
+.sq i{width:9px;height:9px;display:block}
+.sq i:nth-child(1){background:var(--lime)}.sq i:nth-child(2){background:var(--sky)}.sq i:nth-child(3){background:var(--blue)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:54px;padding:0 26px;background:var(--lime);color:var(--ink);font-weight:600;font-size:17px;text-decoration:none;border:0;border-radius:0;cursor:pointer;transition:background .2s}
+.btn:hover{background:#e3e61c}
+.btn svg{width:18px;height:18px;flex:none}
+.btn.nv{background:var(--navy);color:#fff}.btn.nv:hover{background:var(--navy2)}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:#fff;height:var(--h);border-bottom:1px solid var(--line)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:100%;gap:20px}
+.logo{text-decoration:none;display:flex;flex-direction:column;gap:3px;line-height:1}
+.logo b{font-family:'DM Serif Display',Georgia,serif;font-weight:400;font-size:25px;color:var(--ink);white-space:nowrap}
+.logo small{display:flex;gap:12px;font-size:12.5px;color:var(--mut);white-space:nowrap}
+.logo small span{display:inline-flex;align-items:center;gap:5px}
+.logo small span::before{content:"";width:8px;height:8px;background:var(--c)}
+nav.main{display:flex;align-items:center;gap:28px}
+nav.main a{text-decoration:none;font-size:15.5px;color:var(--ink);position:relative;padding:6px 0}
+nav.main a:not(.tel)::after{content:"";position:absolute;left:0;bottom:0;width:8px;height:3px;background:var(--lime);opacity:0;transition:opacity .2s,width .2s}
+nav.main a:not(.tel):hover::after,nav.main a.on::after{opacity:1;width:100%}
+nav.main a.tel{display:inline-flex;align-items:center;gap:9px;background:var(--navy);color:#fff;padding:0 18px;height:44px;font-weight:600}
+nav.main a.tel svg{width:16px;height:16px}
+.burger{display:none;width:46px;height:46px;border:0;background:var(--navy);cursor:pointer;flex-direction:column;align-items:center;justify-content:center;gap:5px}
+.burger i{display:block;width:20px;height:2px;background:#fff;transition:transform .25s,opacity .2s}
+.burger[aria-expanded=true] i:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.burger[aria-expanded=true] i:nth-child(2){opacity:0}
+.burger[aria-expanded=true] i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* hero */
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,48fr) minmax(0,52fr);min-height:calc(100svh - var(--h));background:var(--navy)}
+.hero-txt{display:flex;align-items:center;padding:56px max(40px,calc((100vw - 1180px)/2)) 56px clamp(48px,5vw,96px);color:#fff}
+.hero-txt .in{max-width:640px}
+.hero .meta{display:flex;align-items:center;gap:14px;font-size:15.5px;color:#cfe0ee;margin-bottom:22px}
+.hero h1{color:#fff;font-size:clamp(38px,4.3vw,62px);margin-bottom:22px}
+.hero .lead{font-size:clamp(17px,1.35vw,19.5px);color:#e4edf5;max-width:540px}
+.hero .cta{margin-top:32px;display:flex;flex-wrap:wrap;align-items:center;gap:14px 22px}
+.hero .hours{font-size:15px;color:#cfe0ee;line-height:1.45}
+.hero .hours b{color:#fff;font-weight:600}
+.hero-foto{position:relative;min-height:100%;overflow:hidden}
+.hero-foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:20% 30%}
+.hero-foto::after{content:"";position:absolute;right:0;top:0;bottom:0;width:12px;background:linear-gradient(var(--lime) 0 33.3%,var(--sky) 0 66.6%,var(--blue) 0)}
+
+/* sekcje */
+section.s{padding:clamp(64px,8vw,110px) 0}
+.grey{background:var(--grey)}
+.lead2{font-size:19px;color:var(--txt);max-width:720px}
+
+.wiz{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:clamp(32px,5vw,72px);align-items:center}
+.wiz-foto{position:relative}
+.wiz-foto img{width:100%;aspect-ratio:700/734;object-fit:cover}
+.wiz-foto figcaption{position:absolute;left:0;bottom:0;background:#fff;padding:14px 18px 0 0;font-size:14.5px;color:var(--mut);display:flex;align-items:center;gap:10px}
+.steps{list-style:none;margin:26px 0 30px;border-top:1px solid var(--line)}
+.steps li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:14px;padding:16px 0;border-bottom:1px solid var(--line)}
+.steps li::before{content:"";width:10px;height:10px;margin-top:9px;background:var(--c,var(--lime))}
+.steps b{display:block;color:var(--ink);font-weight:600}
+.price{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px;padding:22px 24px;background:var(--grey);border-left:6px solid var(--lime)}
+.price strong{font-family:'DM Serif Display',Georgia,serif;font-weight:400;font-size:40px;color:var(--ink);line-height:1}
+.price span{font-size:15.5px;color:var(--mut);flex:1 1 260px}
+
+.chor{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;margin-top:40px}
+.chor article{background:#fff;padding:30px 28px 28px;border-top:6px solid var(--c)}
+.chor h3{font-size:24px}
+.chor ul{list-style:none;margin-top:14px}
+.chor li{padding:9px 0;border-bottom:1px solid var(--line);font-size:16.5px}
+.chor li:last-child{border-bottom:0}
+.note{margin-top:28px;font-size:15.5px;color:var(--mut);max-width:760px}
+
+.omnie{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,6vw,90px)}
+.spec{display:flex;flex-wrap:wrap;gap:10px 22px;margin:22px 0 26px}
+.spec span{display:inline-flex;align-items:center;gap:8px;font-weight:600;color:var(--ink)}
+.spec span::before{content:"";width:12px;height:12px;background:var(--c)}
+.tl{list-style:none;border-left:2px solid var(--line);margin-left:5px}
+.tl li{position:relative;padding:0 0 22px 26px}
+.tl li::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;background:var(--navy)}
+.tl li:first-child::before{background:var(--lime)}
+.tl time{display:block;font-weight:600;color:var(--ink);font-size:15.5px}
+.pub{margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
+.pub h3{font-size:22px}
+.pub ul{list-style:none}
+.pub li{padding:6px 0;font-size:16px}
+.pub em{color:var(--mut);font-style:normal}
+
+.opinie{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:24px}
+.opinie p{max-width:620px}
+.opinie .links{display:flex;flex-wrap:wrap;gap:12px}
+.opinie .links a{display:inline-flex;align-items:center;min-height:50px;padding:0 22px;border:2px solid var(--navy);color:var(--navy);font-weight:600;text-decoration:none}
+.opinie .links a:hover{background:var(--navy);color:#fff}
+
+/* dojazd */
+.dark{background:var(--navy);color:#dbe7f2}
+.dark h2,.dark h3{color:#fff}
+.doj{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(32px,5vw,64px);align-items:start}
+.adr{font-size:19px;color:#fff;margin:8px 0 18px}
+.adr b{font-weight:600}
+.bus{margin-top:24px}
+.bus h3{font-size:22px}
+.bus ul{list-style:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px 22px;font-size:15.5px;margin-top:8px}
+.bus li b{display:inline-block;min-width:30px;color:var(--lime);font-weight:600}
+.doj-media{display:grid;gap:14px}
+.doj-media img{width:100%;aspect-ratio:4/3;object-fit:cover;object-position:50% 45%}
+.mapa{position:relative;aspect-ratio:16/9;background:#1d3550;overflow:hidden}
+.mapa button{position:absolute;inset:0;width:100%;border:0;cursor:pointer;background:
+ linear-gradient(90deg,transparent 0 calc(50% - 1px),rgba(255,255,255,.08) 0 calc(50% + 1px),transparent 0),
+ linear-gradient(transparent 0 calc(58% - 1px),rgba(255,255,255,.08) 0 calc(58% + 1px),transparent 0),#1d3550;color:#fff;font:inherit;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px}
+.mapa button i{width:22px;height:22px;background:var(--lime);box-shadow:0 0 0 8px rgba(212,215,14,.22)}
+.mapa button span{font-weight:600}
+.mapa iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+
+/* kontakt */
+.kont{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(32px,6vw,80px);align-items:start}
+.kanaly{list-style:none;margin-top:22px;border-top:1px solid var(--line)}
+.kanaly li{padding:15px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:120px minmax(0,1fr);gap:12px}
+.kanaly span{color:var(--mut);font-size:15px;padding-top:2px}
+.kanaly a{font-weight:600;color:var(--ink);text-decoration:none;overflow-wrap:anywhere}
+.kanaly a:hover{color:var(--blue)}
+form{background:var(--grey);padding:clamp(24px,3.5vw,40px)}
+form h3{margin-bottom:6px}
+form>p{font-size:15.5px;color:var(--mut);margin-bottom:18px}
+.f2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+label{display:block;font-size:14.5px;font-weight:600;color:var(--ink);margin-bottom:14px}
+input,textarea,select{display:block;width:100%;margin-top:6px;padding:13px 14px;font:inherit;font-size:16px;color:var(--ink);background:#fff;border:1px solid #c9d3de;border-radius:0}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--blue);outline-offset:-1px}
+textarea{min-height:110px;resize:vertical}
+.zg{display:flex;gap:10px;font-weight:400;font-size:14px;color:var(--mut);align-items:flex-start}
+.zg input{width:18px;height:18px;margin:2px 0 0;flex:none}
+.ok{display:none;margin-top:14px;padding:12px 14px;background:#fff;border-left:5px solid var(--lime);font-size:15.5px}
+
+footer{background:var(--ink);color:#b8c6d6;padding:44px 0 26px;font-size:15px}
+.fgrid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:28px}
+footer .logo b{color:#fff}
+footer .logo small{color:#9fb0c3}
+footer h4{color:#fff;font-weight:600;font-size:15px;margin-bottom:8px}
+footer a{text-decoration:none}footer a:hover{color:#fff}
+.fbot{margin-top:30px;padding-top:18px;border-top:1px solid rgba(255,255,255,.12);display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;font-size:14px}
+{{BADGE_STYLE}}
+
+.mob{position:fixed;left:0;right:0;bottom:0;z-index:40;display:none;grid-template-columns:1fr 1fr;transform:translateY(100%);transition:transform .25s}
+.mob a{display:flex;align-items:center;justify-content:center;gap:8px;height:56px;font-weight:600;text-decoration:none;font-size:16px}
+.mob a:first-child{background:var(--lime);color:var(--ink)}.mob a:last-child{background:var(--navy);color:#fff}
+.mob.widac{transform:none}
+
+@media (max-width:1100px){nav.main{gap:20px}nav.main a{font-size:15px}}
+@media (max-width:980px){
+ .burger{display:flex}
+ nav.main{position:fixed;top:var(--h);left:0;right:0;height:calc(100svh - var(--h));background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:12px 20px 28px;transform:translateX(100%);visibility:hidden;transition:transform .28s,visibility .28s;overflow:auto}
+ nav.main.open{transform:none;visibility:visible}
+ nav.main a{font-size:22px;font-family:'DM Serif Display',Georgia,serif;padding:15px 0;border-bottom:1px solid var(--line)}
+ nav.main a:not(.tel)::after{bottom:-1px}
+ nav.main a.tel{margin-top:22px;justify-content:center;height:56px;font-family:Inter,sans-serif;font-size:18px;border:0}
+}
+@media (max-width:860px){
+ :root{--h:64px}
+ .logo b{font-size:22px}
+ .logo small{font-size:11.5px;gap:9px}
+ .hero{display:flex;flex-direction:column;justify-content:flex-end;min-height:calc(100svh - var(--h))}
+ .hero-foto{position:absolute;inset:0}
+ .hero-foto img{object-position:28% 18%}
+ .hero-foto::after{width:auto;height:8px;top:auto;left:0;right:0;background:linear-gradient(90deg,var(--lime) 0 33.3%,var(--sky) 0 66.6%,var(--blue) 0);z-index:2}
+ .hero-foto::before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(22,38,58,0) 22%,rgba(29,53,80,.72) 52%,rgba(29,53,80,.96) 78%)}
+ .hero-txt{position:relative;z-index:3;padding:28px 20px 40px}
+ .hero .meta{margin-bottom:14px;font-size:14.5px}
+ .hero h1{font-size:clamp(31px,min(8.6vw,5.4svh),42px);margin-bottom:14px}
+ .hero .lead{font-size:16.5px}
+ .hero .cta{margin-top:24px}
+ .hero .btn{width:100%}
+ .wiz,.omnie,.doj,.kont{grid-template-columns:minmax(0,1fr)}
+ .chor{grid-template-columns:minmax(0,1fr)}
+ .fgrid{grid-template-columns:1fr 1fr}
+ .fgrid>div:first-child{grid-column:1/-1}
+ .mob{display:grid}
+ footer{padding-bottom:80px}
+}
+@media (max-width:520px){
+ body{font-size:16.5px}
+ .wrap{width:min(1180px,100% - 32px)}
+ .logo small span:nth-child(n+2){display:none}
+ .f2{grid-template-columns:minmax(0,1fr)}
+ .bus ul{grid-template-columns:minmax(0,1fr)}
+ .kanaly li{grid-template-columns:minmax(0,1fr);gap:2px}
+ .hero .hours{font-size:14.5px}
+ .kanaly a[href^=mailto]{font-size:15px}
+}
+@media (max-height:700px) and (max-width:860px){
+ .hero-txt{padding:22px 20px 28px}
+ .hero .lead{font-size:15.5px;line-height:1.5}
+ .hero .cta{margin-top:24px}
+}
+@media (min-width:861px) and (max-height:820px){
+ .hero h1{font-size:clamp(34px,3.4vw,46px);margin-bottom:16px}
+ .hero .meta{margin-bottom:16px}
+ .hero .lead{font-size:17px}
+ .hero .cta{margin-top:26px}
+ .hero-txt{padding-top:32px;padding-bottom:32px}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <a class="logo" href="#top" aria-label="lek. Aneta Kołodziej, strona główna"><b>lek. Aneta Kołodziej</b><small><span style="--c:var(--lime)">endokrynolog</span><span style="--c:var(--sky)">nefrolog</span><span style="--c:var(--blue)">internista</span></small></a>
+  <nav class="main" id="menu" aria-label="Menu główne">
+   <a href="#top" class="on">Gabinet</a>
+   <a href="#wizyta">Wizyta i USG</a>
+   <a href="#choroby">Leczone choroby</a>
+   <a href="#o-mnie">O mnie</a>
+   <a href="#dojazd">Dojazd</a>
+   <a href="#kontakt">Kontakt</a>
+   <a class="tel" href="tel:+48692332387"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 2.5h3.2l1.5 4-2 1.3a10 10 0 0 0 5.5 5.5l1.3-2 4 1.5V16a1.5 1.5 0 0 1-1.6 1.5A15 15 0 0 1 2.5 4.1 1.5 1.5 0 0 1 4 2.5z"/></svg>692 332 387</a>
+  </nav>
+  <button class="burger" aria-label="Menu" aria-controls="menu" aria-expanded="false"><i></i><i></i><i></i></button>
+ </div>
+</header>
+
+<main id="top">
+<section class="hero">
+ <div class="hero-foto"><img src="img/usg-1105.webp" srcset="img/usg-640.webp 640w, img/usg-1105.webp 1105w" sizes="(max-width: 860px) 100vw, 48vw" width="1105" height="1341" alt="Lek. Aneta Kołodziej podczas badania USG tarczycy w gabinecie" fetchpriority="high"></div>
+ <div class="hero-txt"><div class="in">
+  <p class="meta"><span class="sq" aria-hidden="true"><i></i><i></i><i></i></span>ul. Litewska 4b/10, Rzeszów</p>
+  <h1>Endokrynolog w Rzeszowie - konsultacja i USG tarczycy podczas jednej wizyty</h1>
+  <p class="lead">Lek. Aneta Kołodziej, specjalista endokrynologii, nefrologii i chorób wewnętrznych. W prywatnym gabinecie przyjmuję wyłącznie na konsultacje endokrynologiczne, a USG tarczycy wykonuję i omawiam od razu w trakcie wizyty.</p>
+  <div class="cta">
+   <a class="btn" href="tel:+48692332387"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 2.5h3.2l1.5 4-2 1.3a10 10 0 0 0 5.5 5.5l1.3-2 4 1.5V16a1.5 1.5 0 0 1-1.6 1.5A15 15 0 0 1 2.5 4.1 1.5 1.5 0 0 1 4 2.5z"/></svg>Umów wizytę: 692 332 387</a>
+   <p class="hours">Telefon odbieramy<br><b>pon.-pt. 8-19, sob. 9-15</b></p>
+  </div>
+ </div></div>
+</section>
+
+<section class="s" id="wizyta">
+ <div class="wrap wiz">
+  <div>
+   <h2>Jak wygląda wizyta</h2>
+   <p class="lead2">Jedna wizyta to rozmowa, przegląd wyników i badanie. Jeśli lekarz uzna, że jest potrzebne, USG tarczycy robione jest na miejscu, bez osobnego terminu.</p>
+   <ul class="steps">
+    <li style="--c:var(--lime)"><div><b>Konsultacja endokrynologiczna</b>Wywiad, omówienie dotychczasowych wyników i leczenia. Warto zabrać ze sobą ostatnie badania hormonów i wypisy.</div></li>
+    <li style="--c:var(--sky)"><div><b>USG tarczycy z elastografią</b>Aparat z funkcją elastografii ocenia twardość tkanki guzków tarczycy. Wynik omawiany jest od razu w gabinecie.</div></li>
+    <li style="--c:var(--blue)"><div><b>Dalsze postępowanie</b>Zalecenia i plan leczenia, a gdy wymaga tego obraz badania, skierowanie na poszerzoną diagnostykę, np. biopsję.</div></li>
+   </ul>
+   <div class="price"><strong>od 300 zł</strong><span>konsultacja endokrynologiczna z USG tarczycy w cenie. Cennik obowiązuje od 1 września 2024 r., ceny ustalane są indywidualnie, preferowana płatność gotówką.</span></div>
+  </div>
+  <figure class="wiz-foto">
+   <img src="img/usg-monitor-700.webp" width="700" height="734" loading="lazy" decoding="async" alt="Aparat USG z funkcją elastografii w gabinecie przy ul. Litewskiej">
+   <figcaption><span class="sq" aria-hidden="true"><i></i><i></i><i></i></span>Aparat USG z elastografią w gabinecie</figcaption>
+  </figure>
+ </div>
+</section>
+
+<section class="s grey" id="choroby">
+ <div class="wrap">
+  <h2>Z czym można przyjść</h2>
+  <p class="lead2">Zajmuję się diagnostyką i leczeniem zaburzeń hormonalnych. Dzięki doświadczeniu internistycznemu patrzę na pacjenta całościowo, a nie tylko na jeden wynik.</p>
+  <div class="chor">
+   <article style="--c:var(--lime)"><h3>Tarczyca</h3><ul><li>Choroba Hashimoto</li><li>Niedoczynność i nadczynność tarczycy</li><li>Guzy tarczycy</li><li>Choroba Gravesa-Basedowa</li><li>Zapalenie tarczycy</li><li>Zaburzenia funkcji tarczycy w ciąży</li><li>Wytrzeszcz gałek ocznych</li></ul></article>
+   <article style="--c:var(--sky)"><h3>Hormony i metabolizm</h3><ul><li>Insulinooporność</li><li>Otyłość</li><li>Zespół policystycznych jajników</li><li>Zaburzenia miesiączkowania</li><li>Niepłodność</li><li>Trądzik i hirsutyzm</li><li>Ginekomastia</li></ul></article>
+   <article style="--c:var(--blue)"><h3>Inne gruczoły</h3><ul><li>Choroby przysadki mózgowej</li><li>Choroby nadnerczy</li><li>Choroby przytarczyc</li></ul></article>
+  </div>
+  <p class="note">W prywatnym gabinecie prowadzone są tylko konsultacje endokrynologiczne. Jeśli nie wiedzą Państwo, czy dany problem jest do endokrynologa, najprościej zapytać przy rejestracji telefonicznej.</p>
+ </div>
+</section>
+
+<section class="s" id="o-mnie">
+ <div class="wrap omnie">
+  <div>
+   <h2>Lek. Aneta Kołodziej</h2>
+   <p class="lead2">Jestem absolwentką Śląskiego Uniwersytetu Medycznego w Katowicach, specjalistą trzech dziedzin:</p>
+   <p class="spec"><span style="--c:var(--lime)">endokrynologia</span><span style="--c:var(--sky)">nefrologia</span><span style="--c:var(--blue)">choroby wewnętrzne</span></p>
+   <p>Przez lata pracowałam w klinikach i stacjach dializ w Rzeszowie, Warszawie i Przeworsku, a obecnie także w szpitalu w Rudnej Małej. To doświadczenie wnoszę do każdej konsultacji w gabinecie.</p>
+   <div class="pub">
+    <h3>Publikacje</h3>
+    <ul><li>Choroba Hashimoto. Fakty i mity <em>- Biznes i Styl</em></li><li>Nefropatia błoniasta <em>- Przegląd Lekarski</em></li><li>Kikuchi-Fujimoto disease <em>- Polish Archives of Internal Medicine</em></li></ul>
+   </div>
+  </div>
+  <ol class="tl">
+   <li><time>od 2019</time>Oddział Wewnętrzny z Pododdziałem Endokrynologii, Szpital Specjalistyczny im. Św. Rodziny w Rudnej Małej k. Rzeszowa</li>
+   <li><time>2009-2012</time>Klinika Nefrologii, Samodzielny Publiczny Centralny Szpital Kliniczny przy ul. Banacha w Warszawie (szkolenie specjalistyczne)</li>
+   <li><time>2004-2018</time>Klinika Chorób Wewnętrznych, Nefrologii i Endokrynologii z Pracownią Medycyny Nuklearnej, Kliniczny Szpital Wojewódzki nr 2 w Rzeszowie</li>
+   <li><time>Stacje dializ</time>Stacja Dializ Medyk w Rzeszowie, Stacja Dializ Diaverum w Przeworsku</li>
+  </ol>
+ </div>
+</section>
+
+<section class="s grey" style="padding-block:clamp(48px,6vw,72px)">
+ <div class="wrap opinie">
+  <div><h2 style="margin-bottom:10px">Opinie pacjentów</h2><p>Opinie pacjentów można przeczytać i dodać w Google oraz na ZnanyLekarz. Uwagi najlepiej przesyłać mailowo na adres gabinetu.</p></div>
+  <div class="links"><a href="https://g.page/r/CbJnFepSjFvlEBI/review" rel="noopener" target="_blank">Opinie w Google</a><a href="https://www.znanylekarz.pl/aneta-kolodziej-2/endokrynolog-nefrolog-internista/rzeszow" rel="noopener" target="_blank">Profil na ZnanyLekarz</a></div>
+ </div>
+</section>
+
+<section class="s dark" id="dojazd">
+ <div class="wrap doj">
+  <div>
+   <h2>Dojazd do gabinetu</h2>
+   <p class="adr"><b>ul. Litewska 4b/10, 35-302 Rzeszów</b></p>
+   <p>Główne wejście do budynku B, gabinet nr 10 znajduje się na I piętrze. Budynek stoi obok Szpitala Wojewódzkiego nr 2 przy ul. Lwowskiej.</p>
+   <div class="bus">
+    <h3>Autobusy MPK z centrum</h3>
+    <ul>
+     <li><b>4</b> ul. Lwowska, obok cmentarza</li><li><b>9</b> ul. Lwowska, obok cmentarza</li>
+     <li><b>11</b> ul. Lwowska, obok cmentarza</li><li><b>15</b> ul. Lwowska, obok cmentarza</li>
+     <li><b>13</b> ul. Armii Krajowej, obok Lidla</li><li><b>26</b> ul. Armii Krajowej, obok Lidla</li>
+     <li><b>16</b> ul. Leszka Czarnego</li><li><b>27</b> ul. Niepodległości</li>
+     <li><b>36</b> ul. Niemierskiego</li><li><b>46</b> ul. Niemierskiego</li>
+    </ul>
+   </div>
+  </div>
+  <div class="doj-media">
+   <img src="img/gabinet-1200.webp" srcset="img/gabinet-720.webp 720w, img/gabinet-1200.webp 1200w" sizes="(max-width: 860px) 100vw, 50vw" width="1200" height="1136" loading="lazy" decoding="async" alt="Budynek 4B przy ul. Litewskiej w Rzeszowie, wejście do gabinetu">
+   <div class="mapa"><button type="button" data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d640.701009122652!2d22.036580769617252!3d50.033767698219734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473cfbfda4c95813%3A0xe55b8c52ea1567b2!2sPrywatny%20gabinet%20lekarski%20Aneta%20Ko%C5%82odziej-K%C5%82%C4%99k!5e0!3m2!1spl!2spl!4v1688574104480!5m2!1spl!2spl"><i></i><span>Pokaż mapę Google</span></button></div>
+  </div>
+ </div>
+</section>
+
+<section class="s" id="kontakt">
+ <div class="wrap kont">
+  <div>
+   <h2>Umów wizytę</h2>
+   <p class="lead2">Wizyty najlepiej umawiać telefonicznie. Jeśli nie odbierzemy, oddzwonimy.</p>
+   <ul class="kanaly">
+    <li><span>Telefon</span><a href="tel:+48692332387">+48 692 332 387</a></li>
+    <li><span>WhatsApp</span><a href="https://wa.me/48692332387" rel="noopener" target="_blank">+48 692 332 387</a></li>
+    <li><span>E-mail</span><a href="mailto:lek.aneta.kolodziej@endokrynologrzeszow.pl">lek.aneta.kolodziej@endokrynologrzeszow.pl</a></li>
+    <li><span>Facebook</span><a href="https://www.facebook.com/endokrynolog.nefrolog.Rzeszow.Aneta.Kolodziej" rel="noopener" target="_blank">Lekarz Aneta Kołodziej Rzeszów</a></li>
+    <li><span>Rejestracja</span><div>pon.-pt. 8-19<br>sob. 9-15</div></li>
+   </ul>
+  </div>
+  <form id="f" novalidate>
+   <h3>Prośba o kontakt</h3>
+   <p>Prosimy zostawić numer, oddzwonimy w godzinach pracy rejestracji. Prosimy nie wpisywać tu szczegółów dotyczących zdrowia.</p>
+   <div class="f2"><label>Imię i nazwisko<input name="n" autocomplete="name"></label><label>Telefon<input name="t" type="tel" autocomplete="tel" inputmode="tel"></label></div>
+   <label>Preferowany termin<select name="p"><option>Dowolny</option><option>Rano</option><option>Po południu</option><option>Sobota</option></select></label>
+   <label class="zg"><input type="checkbox" name="z">Zgadzam się na kontakt telefoniczny w sprawie umówienia wizyty.</label>
+   <button class="btn nv" type="submit" style="width:100%">Wyślij prośbę o kontakt</button>
+   <p class="ok" role="status">To podgląd strony - formularz nie wysyła danych. Na docelowej stronie zgłoszenie trafi na skrzynkę gabinetu.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="fgrid">
+   <div><span class="logo"><b>lek. Aneta Kołodziej</b><small><span style="--c:var(--lime)">endokrynolog</span><span style="--c:var(--sky)">nefrolog</span><span style="--c:var(--blue)">internista</span></small></span><p style="margin-top:14px">Prywatny gabinet endokrynologiczny w Rzeszowie.</p></div>
+   <div><h4>Gabinet</h4>ul. Litewska 4b/10<br>35-302 Rzeszów<br>budynek B, I piętro</div>
+   <div><h4>Rejestracja</h4><a href="tel:+48692332387">692 332 387</a><br>pon.-pt. 8-19<br>sob. 9-15</div>
+  </div>
+  <div class="fbot"><span>&copy; 2026 lek. Aneta Kołodziej</span>{{BADGE_LINK}}</div>
+ </div>
+</footer>
+<div class="mob" id="mob"><a href="tel:+48692332387">Zadzwoń</a><a href="https://wa.me/48692332387" rel="noopener" target="_blank">WhatsApp</a></div>
+
+<script>
+(function(){
+var b=document.querySelector('.burger'),m=document.getElementById('menu');
+b.addEventListener('click',function(){var o=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',o);m.classList.toggle('open',o);document.body.style.overflow=o?'hidden':''});
+m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){b.setAttribute('aria-expanded','false');m.classList.remove('open');document.body.style.overflow=''})});
+var mob=document.getElementById('mob'),cta=document.querySelector('.hero .btn');
+new IntersectionObserver(function(e){mob.classList.toggle('widac',!e[0].isIntersecting&&e[0].boundingClientRect.top<0)}).observe(cta);
+var links=[].slice.call(m.querySelectorAll('a:not(.tel)')),secs=links.map(function(a){return document.querySelector(a.getAttribute('href'))});
+function act(){var y=scrollY+innerHeight*.35,k=0;secs.forEach(function(s,i){if(s&&s.offsetTop<=y)k=i});links.forEach(function(a,i){a.classList.toggle('on',i===k)})}
+addEventListener('scroll',act,{passive:true});act();
+var mb=document.querySelector('.mapa button');
+mb.addEventListener('click',function(){var f=document.createElement('iframe');f.src=mb.dataset.src;f.title='Mapa Google: gabinet przy ul. Litewskiej 4b';f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';mb.replaceWith(f)});
+document.getElementById('f').addEventListener('submit',function(e){e.preventDefault();this.querySelector('.ok').style.display='block'});
+})();
+</script>
+</body></html>
